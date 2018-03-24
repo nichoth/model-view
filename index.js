@@ -23,7 +23,8 @@ function StateMachine (model, view) {
     }
 
     _StateMachine.prototype.render = function (props, state) {
-        return h(view, xtend(props, state, {
+        return h(view, xtend(props, {
+            state: state,
             actions: model
         }), props.children)
     }
