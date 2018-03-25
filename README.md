@@ -1,6 +1,6 @@
 # model view
 
-Create state machines and connect them to a dom render loop. Currently this wonly works with preact.
+Create state machines and connect them to a dom render loop. Currently this only works with preact.
 
 ## example
 ```js
